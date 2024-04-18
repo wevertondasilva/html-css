@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+        body {font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            
+             /*
+             Medidas absolutas
+            cn, mm, in (polegadas),px, pt, pc
+
+             Medidas relativas
+            em, ex, rem, vw, vh, %
+             16px geralmente = 1em
+             */
+             font-size: 1em ;
+        }
+        h1{
+            /*
+            shorthand font
+            - font-style -> font-weight -> font-size -> font family
+            font-family: 'work sans', sans-serif;
+            fonte-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;  
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab quidem magni odit veritatis vitae aperiam perspiciatis delectus tempora molestias ea numquam tenetur at dolorum, saepe consequatur minus, molestiae pariatur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus explicabo autem hic nisi saepe illo fugit distinctio sint facere atque eaque, dolores at, quia itaque quidem. Aspernatur, voluptatum omnis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas molestiae quaerat eos expedita aliquam adipisci aliquid? Delectus cum distinctio minima officiis reiciendis, nobis sapiente consequatur quidem eaque soluta, eum adipisci!</p>
+    <h2>Subtitulo do exercicio</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ipsam omnis eius, odio, veritatis numquam error distinctio animi aspernatur ad nostrum dolorem dolorum ex harum voluptas. Libero quaerat est ab?
+
+</body>
+</html>
